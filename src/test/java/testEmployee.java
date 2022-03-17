@@ -33,7 +33,7 @@ public class testEmployee {
     }
 
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkGetUniqueIDtest2() {
 
         int actual2 = testObject2.getUniqueID();
@@ -49,7 +49,7 @@ public class testEmployee {
         Assertions.assertEquals(expected3, actual3);
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkGetFirstNameTest() {
 
         String expected = "Marcus";
@@ -60,7 +60,7 @@ public class testEmployee {
 
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkSetFirstNameTest() {
 
         String expected = "Bengt";
@@ -73,7 +73,7 @@ public class testEmployee {
 
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkGetLastNameTest() {
         String expected = "Davidsson";
 
@@ -82,7 +82,7 @@ public class testEmployee {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkSetLastNameTest() {
         String expected = "Bengtsson";
 
@@ -93,7 +93,7 @@ public class testEmployee {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkGetAgeTest() {
 
         int expected = 33;
@@ -104,7 +104,7 @@ public class testEmployee {
 
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkSetAgeTest() {
 
         int expected = 45;
@@ -117,7 +117,7 @@ public class testEmployee {
 
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkGetSalaryTest() {
 
         double expected = 30500.00;
@@ -127,7 +127,7 @@ public class testEmployee {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkSetSalaryTest() {
 
         double expected = 60500.50;

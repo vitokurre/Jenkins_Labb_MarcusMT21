@@ -37,7 +37,7 @@ public class testEmployeeSystem {
 
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkGetEmployeeListTest() {
 
         int expected = 0;
@@ -51,7 +51,7 @@ public class testEmployeeSystem {
 
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkAddEmployeeTest() {
 
         int expected = 3;
@@ -70,7 +70,7 @@ public class testEmployeeSystem {
 
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkRemoveEmployeeTest() {
 
         int expected = 2;
@@ -91,7 +91,7 @@ public class testEmployeeSystem {
 
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkGetEmployeeSalaryTest() {
 
         double actual = 30500.00;
@@ -105,7 +105,7 @@ public class testEmployeeSystem {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkRaiseEmployeeSalaryTest() {
 
         double raiseSalaryByPercent = 1.02;
@@ -121,7 +121,7 @@ public class testEmployeeSystem {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkRaiseEmployeeSalaryTest2() {
 
         double raiseSalaryByPercent = 1;
@@ -137,7 +137,7 @@ public class testEmployeeSystem {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkRaiseEmployeeSalaryTest3() {
 
         double raiseSalaryByPercent = 2.01;
@@ -153,7 +153,7 @@ public class testEmployeeSystem {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkRaiseAllEmployeeSalaryTest() {
 
         double raiseSalaryByPercent = 1.02;
@@ -181,7 +181,7 @@ public class testEmployeeSystem {
 
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkRaiseAllEmployeeSalaryTest2() {
 
         double raiseSalaryByPercent = 1;
@@ -209,7 +209,7 @@ public class testEmployeeSystem {
 
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void checkRaiseAllEmployeeSalaryTest3() {
 
         double raiseSalaryByPercent = 2.01;
