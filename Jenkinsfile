@@ -4,12 +4,12 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat "mvn compile"
+                sh "mvn compile"
             }
         }
         stage('Test') {
             steps {
-                bat "mvn test"
+                sh "mvn test"
             }
             post {
                 always {
@@ -19,7 +19,7 @@ pipeline {
         }
         stage('newman') {
             steps {
-                sh 'newman run Restful_Booker_Facit.postman_collection.json --environment Restful_Booker.postman_environment.json --reporters junit'
+                sh 'newman run Labb_Marcus_Collection.postman_collection.json --environment Labb_Marcus_Enviroments.postman_environment.json --reporters junit'
             }
             post {
                 always {
