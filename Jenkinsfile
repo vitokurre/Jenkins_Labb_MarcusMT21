@@ -1,11 +1,11 @@
 pipeline {
     agent any
     stages {
-	      stage ('Checkout') {
-	         steps {
-          		git 'https://github.com/vitokurre/JenkinsLabbMarusMT21.git'
-          	    }
-          	}
+		stage ('Checkout') {
+		 steps {
+			git 'https://github.com/vitokurre/JenkinsLabbMarusMT21.git'
+			}
+		}
         stage('Build') {
             steps {
                 sh "mvn compile"
