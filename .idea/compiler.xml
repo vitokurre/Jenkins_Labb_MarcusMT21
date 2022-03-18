@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Jenkins_Labb_MarcusMT21" />
-        <module name="Jenkins_Labb_MarcusMT21" />
       </profile>
     </annotationProcessing>
   </component>
